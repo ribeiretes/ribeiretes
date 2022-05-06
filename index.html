@@ -1,55 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <link ref="stylesheet" href="estilo.css">
-        <style>
-            body, h1, h2, pre {font-family: "Raleway", sans-serif}
-        </style>
-        <title> Comunica BH </title>
-    </head>
-    <body class="w3-light-grey">
-        <body class="w3-light-grey"></body>
-    <body>
-        <header class="w3-container w3-center w3-padding-35">      
-        </header>
-        <div class="w3-card-4 w3-margin w3-white">
-            <img src="camera.jpg" style="width:100%">
-            <div class="w3-container">
-               
-        <h1> COMUNICA BH </h1>
-        <h2><b>Quem somos nós?</b></h2>
-        <pre>
-            Somos uma empresa de comunicação audiovisual e streaming
-            que fornece transmissões ao vivo com qualidade FULL HD em todas
-            as principais plataformas. Atendemos as demandas e necessidades
-            do cliente para o melhor resultado.
-        </pre>
-        <h2> Especialidades </h2>
-        <pre>
-            Conferências da área jornalística
-            Eventos Corporativos
-            Palestras e Reuniões
-            Eventos Esportivos e Musicais
-        </pre>
-        <h2> Transmissão </h2>
-        <pre>
-            Aúdio, vídeo e iluminação de alto padrão
-            Suporte técnico
-            Gravação na íntegra em Full HD
-            Relatório detalhado do evento
-        </pre>
-        <h2> Objetivos </h2>
-        <pre>
-            Obter uma maior maior audiência para transmissões que tem
-            essa finalidade, já que possibilita o alcance de expectadores
-            de forma simultânea. E a maior qualidade para eventos Corporativos
-            e reuniões de empresas.
-        </pre>
-        <h2> Contato </h2>
-        <pre>
-        @comunicabhz - Instagram
-        comunicabh - Facebook
-        comunicabh@brenoribeiro.com.br - Email
-        </pre>
-    </body>
+<html>
+<head>
+<title>Breno Gordão</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.teahub.io/photos/full/213-2137495_camera-lens-wallpaper-4k.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">CBH+</a>
+       <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">SOBRE NÓS</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> NOSSA EQUIPE</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFÓLIO</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ORÇAMENTO</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
+    </div>
+    
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fechar ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE NÓS</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">NOSSA EQUIPE</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFÓLIO</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">ORÇAMENTO</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+</nav>
+
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Comunica BH</span><br>
+    <span class="w3-large">Empresa audiovisual e telecomunicações ltda.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Saiba mais sobre nossa empresa</a></p>
+  </div> 
+</header>
+
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">QUEM NÓS SOMOS?</h3>
+  <p class="w3-center w3-large">A melhor empresa em telecomunicação de Belo Horizonte e região.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+            <p class="w3-large">Nossa História</p>
+      <p>Somos uma empresa de audiovisual e streaming que fornece transmissões ao vivo com qualidade FULL HD em todas as principais plataformas. </p>
+    </div>
+    <div class="w3-quarter">
+            <p class="w3-large">Objetivos</p>
+      <p>O objetivo aqui é aumentar a audiência para suas transmissões e possibilitar o alcance de expectadores de forma simultânea.</p>
+    </div>
+    <div class="w3-quarter">
+            <p class="w3-large">Serviços</p>
+      <p>Atendemos as demandas de acordo com a necessidades para ter o melhor resultado. Seja para conferências da área jornalística, eventos corporativos ou palestras e reuniões.</p>
+    </div>
+    <div class="w3-quarter">
+            <p class="w3-large">Transmissões</p>
+      <p>Temos todos os melhores equipamentos de aúdio, vídeo e iluminação e acompanhamento com suporte técnico necessário. </p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">7+</span>
+    <br>Jornalistas multidisciplinares na equipe
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">15+</span>
+    <br>Propagandas e Comerciais
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">23+</span>
+    <br>Transmissões ao vivo
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">58+</span>
+    <br>Reuniões e Conferências
+  </div>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">FALE CONOSCO</h3>
+  <p class="w3-center w3-large">Envie uma mensagem e faça seu orçamento.</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Belo Horizonte, MG</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: (31) 98267-6758</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: comunicabh@brenoribeiro.com.br</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Assunto" required name="Assunto"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Descrição" required name="Descrição"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> Envie a mensagem
+        </button>
+      </p>
+    </form>
+    </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Início</a>
+</footer>
+ 
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
 </html>
